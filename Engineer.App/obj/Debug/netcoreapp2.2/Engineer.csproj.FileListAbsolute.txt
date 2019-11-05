@@ -1,0 +1,13 @@
+C:\Users\terch\source\repos\Engineer\Engineer\bin\Debug\netcoreapp2.2\Engineer.deps.json
+C:\Users\terch\source\repos\Engineer\Engineer\bin\Debug\netcoreapp2.2\Engineer.runtimeconfig.json
+C:\Users\terch\source\repos\Engineer\Engineer\bin\Debug\netcoreapp2.2\Engineer.runtimeconfig.dev.json
+C:\Users\terch\source\repos\Engineer\Engineer\bin\Debug\netcoreapp2.2\Engineer.dll
+C:\Users\terch\source\repos\Engineer\Engineer\bin\Debug\netcoreapp2.2\Engineer.pdb
+C:\Users\terch\source\repos\Engineer\Engineer\obj\Debug\netcoreapp2.2\Engineer.csproj.CoreCompileInputs.cache
+C:\Users\terch\source\repos\Engineer\Engineer\obj\Debug\netcoreapp2.2\Engineer.RazorAssemblyInfo.cache
+C:\Users\terch\source\repos\Engineer\Engineer\obj\Debug\netcoreapp2.2\Engineer.RazorAssemblyInfo.cs
+C:\Users\terch\source\repos\Engineer\Engineer\obj\Debug\netcoreapp2.2\Engineer.AssemblyInfoInputs.cache
+C:\Users\terch\source\repos\Engineer\Engineer\obj\Debug\netcoreapp2.2\Engineer.AssemblyInfo.cs
+C:\Users\terch\source\repos\Engineer\Engineer\obj\Debug\netcoreapp2.2\Engineer.RazorTargetAssemblyInfo.cache
+C:\Users\terch\source\repos\Engineer\Engineer\obj\Debug\netcoreapp2.2\Engineer.dll
+C:\Users\terch\source\repos\Engineer\Engineer\obj\Debug\netcoreapp2.2\Engineer.pdb
