@@ -1,0 +1,34 @@
+<link href='https://fonts.googleapis.com/css?family=Ubuntu:500' rel='stylesheet' type='text/css'>
+
+<div ng-show="show">
+  <div class="login" >
+    <div class="login-header">
+      <h1>Zaloguj się</h1>
+    </div>
+    <div class="login-form">
+      <h3>Login:</h3>
+      <input [(ngModel)]="model.username" type="text" placeholder="Login"/><br>
+      <h3>Hasło:</h3>
+      <input [(ngModel)]="model.password" type="password" placeholder="Hasło"/>
+      <br>
+      <input type="button" value="Zaloguj się" class="login-button" (click)="signIn(); showModal = true;"/>
+      <br>
+      <br>
+      <br>
+      <div>
+        <span style="color: white">Nie masz jeszcze konta?</span><br>
+        <a [routerLink]="['/register']" ><input type="button" value="Zarejestruj się"></a>
+      </div>
+      <br>
+    </div>
+    <button (click)="openModal('custom-modal-1')">Open Modal 1</button>
+  </div>
+</div>
+
+<app-modal [ngClass]="{ 'show': showModal }" ></app-modal>
+
+<app-modal id="custom-modal-1">
+    <h1>A Custom Modal!</h1>
+    <p>Home page text: <input type="text" [(ngModel)]="bodyText" /></p>
+    <button (click)="closeModal('custom-modal-1');">Close</button>
+</app-modal>

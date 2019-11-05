@@ -1,0 +1,25 @@
+<link href='https://fonts.googleapis.com/css?family=Ubuntu:500' rel='stylesheet' type='text/css'>
+
+<div ng-show="show">
+  <div class="login" >
+    <div class="login-header">
+      <h1>Zarejestruj się</h1>
+    </div>
+    <div class="login-form">
+      <h3>Login:</h3>
+      <div>
+        <input [(ngModel)]="model.username" type="text" placeholder="Login"/>
+        <h3>Hasło:</h3>
+        <input [(ngModel)]="model.password" type="password" placeholder="Hasło"/>
+        <h3>Powtórz hasło:</h3>
+        <input [(ngModel)]="passwordConfirm" type="password" placeholder="Powtórz hasło" id="passwordConfirm" name="passwordConfirm"/>
+        <h3>Waga:</h3>
+        <input type="number" class="input-text-std" [(ngModel)]="model.weight" value=""/>
+        <h3>Wzrost:</h3>
+        <input type="number" class="input-text-std" [(ngModel)]="model.height" value=""/>
+        <input type="button" value="Zarejestruj się" class="login-button" (click)="register()"/>
+    </div>
+  </div>
+</div>
+
+
